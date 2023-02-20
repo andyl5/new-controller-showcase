@@ -1,0 +1,131 @@
+{
+    "brands": [
+        {
+            "name": "Nintendo",
+            "image": "https://example.com/nintendo.png",
+            "consoles": [
+                {
+                    "name": "N64",
+                    "image": "https://example.com/n64.png",
+                    "controllers": [
+                        {
+                            "name": "N64 Controller",
+                            "image": "https://example.com/n64_controller.png",
+                            "release_date": "September 29, 1996",
+                            "description": "The N64 controller was designed to be held with three prongs. It featured a central analog stick and 10 buttons.",
+                            "variations": [
+                                {
+                                    "name": "Atomic Purple",
+                                    "image": "https://example.com/n64_controller_atomic_purple.png",
+                                    "release_info": "Released in 1997, this color variant was one of the first alternate N64 controllers to be released."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                    {
+                        "name": "Gamecube",
+                        "image": "https://example.com/gamecube.png",
+                        "controllers": [
+                            {
+                                "name": "Gamecube Controller",
+                                "image": "https://example.com/gamecube_controller.png",
+                                "release_date": "September 14, 2001",
+                                "description": "The Gamecube controller was designed with a unique button layout and featured pressure-sensitive analog triggers.",
+                                "variations": [
+                                    {
+                                        "name": "Indigo",
+                                        "image": "https://example.com/gamecube_controller_indigo.png",
+                                        "release_info": "The standard Gamecube controller color that came bundled with the console."
+                                    },
+                                    {
+                                        "name": "Spice Orange",
+                                        "image": "https://example.com/gamecube_controller_spice_orange.png",
+                                        "release_info": "Released in 2002 as a limited edition color variant."
+                                    },
+                                    {
+                                        "name": "Smash Bros. Edition",
+                                        "image": "https://example.com/gamecube_controller_smash_bros.png",
+                                        "release_info": "Released in 2018 for the Nintendo Switch release of Super Smash Bros. Ultimate."
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Wavebird",
+                                "image": "https://example.com/wavebird.png",
+                                "release_date": "June 10, 2002",
+                                "description": "The Wavebird was a wireless Gamecube controller that used radio frequency instead of infrared to communicate with the console.",
+                                "variations": [
+                                    {
+                                        "name": "Silver",
+                                        "image": "https://example.com/wavebird_silver.png",
+                                        "release_info": "The standard Wavebird color that came bundled with the receiver."
+                                    },
+                                    {
+                                        "name": "Platinum",
+                                        "image": "https://example.com/wavebird_platinum.png",
+                                        "release_info": "Released in 2003 as a limited edition color variant."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                {
+                    "name": "Wii",
+                    "image": "https://example.com/wii.png",
+                    "controllers": [
+                        {
+                            "name": "Wii Remote",
+                            "image": "https://example.com/wii_remote.png",
+                            "release_date": "November 19, 2006",
+                            "description": "The Wii Remote was a motion-sensing controller that used infrared to communicate with the console. It also featured buttons and an accelerometer.",
+                            "variations": [
+                                {
+                                    "name": "White",
+                                    "image": "https://example.com/wii_remote_white.png",
+                                    "release_info": "The standard Wii Remote color that came bundled with the console."
+                                },
+                                {
+                                    "name": "Black",
+                                    "image": "https://example.com/wii_remote_black.png",
+                                    "release_info": "A black variant of the Wii Remote that was released alongside the Wii MotionPlus accessory."
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Wii Classic Controller",
+                            "image": "https://example.com/wii_classic_controller.png",
+                            "release_date": "November 19, 2006",
+                            "variations": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Playstation",
+            "image": "https://example.com/nintendo.png",
+            "consoles": [
+                {
+                    "name": "Playstation 1",
+                    "image": "https://example.com/ps1.png",
+                    "controllers": [
+                        {
+                            "name": "Playstation 1 Controller",
+                            "image": "https://example.com/ps1_controller.png",
+                            "release_date": "I do not know",
+                            "description": "Honestly I don't know either.",
+                            "variations": [
+                                {
+                                    "name": "Dual analog addition",
+                                    "image": "https://example.com/dual_analog.png",
+                                    "release_info": "No idea about the history, sorry."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
