@@ -4,10 +4,9 @@ import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } 
 import Home from './pages/Home'
 import About from './pages/About'
 import ErrorPage from "./pages/ErrorPage.js"
-import Nintendo from "./pages/Nintendo"
-
-// test components
-import Gamecube from "./pages/Gamecube";
+import BrandPage from "./pages/BrandPage"
+import ControllerPage from "./pages/ControllerPage";
+import ConsolePage from "./pages/ConsolePage";
 
 // layouts
 import NavbarLayout from './layouts/NavbarLayout'
@@ -19,10 +18,11 @@ const router = createBrowserRouter(
       <Route index element={<Home/>}/>
       <Route path="about" element={<About/>}/>
 
-      {/* Nintendo and Gamecube must be sibling routes. Nested routes render both the parent and child. */}
-      {/* <Route path="Nintendo" element={<Nintendo/>}/> */}
-      <Route path=":_brand" element={<Nintendo/>}/>
-      <Route path=":_brand/:_console" element={<Gamecube/>}/>
+      {/* BrandPage and ConsolePage must be sibling routes. Nested routes render both the parent and child. */}
+      <Route path=":_brand" element={<BrandPage/>}/>
+      <Route path=":_brand/:_console" element={<ConsolePage/>}/>
+
+      <Route path=":_brand/:_console/:_controller" element={<ControllerPage/>}/>
 
 
 

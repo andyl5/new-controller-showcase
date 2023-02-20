@@ -10,9 +10,16 @@ function NavbarLayout(){
                     <br></br>
                     <NavLink to="about">About</NavLink>
                     <br></br>
+
+                    {/* Routes to brand pages should be in its own component/page */}
                     <NavLink to="Nintendo">Nintendo</NavLink>
                     <br></br>
                     <NavLink to="Playstation">Playstation</NavLink>
+                    <br></br>
+                    <NavLink to="Xbox">Xbox</NavLink>
+                    <br></br>
+                    <NavLink to="Sega">Sega</NavLink>
+
                 </nav>
             </header>
 

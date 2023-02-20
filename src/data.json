@@ -124,6 +124,25 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "Playstation 2",
+                    "image": "https://example.com/ps2.png",
+                    "controllers": [
+                        {
+                            "name": "Dualshock 2",
+                            "image": "https://example.com/ps2_controller.png",
+                            "release_date": "I do not know, but PS2",
+                            "description": "Honestly I don't know either, but PS2.",
+                            "variations": [
+                                {
+                                    "name": "Dualshock 2 Variation 1",
+                                    "image": "https://example.com/dual_analog.png",
+                                    "release_info": "No idea about the history, but PS2."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
