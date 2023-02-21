@@ -5,8 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import ErrorPage from "./pages/ErrorPage.js"
 import BrandPage from "./pages/BrandPage"
-import ControllerPage from "./pages/ControllerPage";
 import ConsolePage from "./pages/ConsolePage";
+import ControllerPage from "./pages/ControllerPage";
 
 // layouts
 import NavbarLayout from './layouts/NavbarLayout'
@@ -21,7 +21,6 @@ const router = createBrowserRouter(
       {/* BrandPage and ConsolePage must be sibling routes. Nested routes render both the parent and child. */}
       <Route path=":_brand" element={<BrandPage/>}/>
       <Route path=":_brand/:_console" element={<ConsolePage/>}/>
-
       <Route path=":_brand/:_console/:_controller" element={<ControllerPage/>}/>
 
 
