@@ -14,7 +14,12 @@ function ControllerPage(){
     return (
         <div className="container text-center">
             <h1>{controllerName} variations</h1>
-            <Carousel variant="dark" indicators={false} interval={null}>
+            <Carousel 
+                variant="dark" 
+                indicators={false} 
+                interval={null}
+                keyboard={false}
+            >
                 {controllerDetails.variations.map((variation, index) => (
                     <Carousel.Item key={index}>
                         <img src={variation.image} alt={variation.name} style={{height:"400px"}}></img>
