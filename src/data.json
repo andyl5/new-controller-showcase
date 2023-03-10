@@ -29,23 +29,23 @@
                         "controllers": [
                             {
                                 "name": "Gamecube Controller",
-                                "image": "https://example.com/gamecube_controller.png",
+                                "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/GameCube_controller.png",
                                 "release_date": "September 14, 2001",
                                 "description": "The Gamecube controller was designed with a unique button layout and featured pressure-sensitive analog triggers.",
                                 "variations": [
                                     {
                                         "name": "Indigo",
-                                        "image": "https://example.com/gamecube_controller_indigo.png",
+                                        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/GameCube_controller.png",
                                         "release_info": "The standard Gamecube controller color that came bundled with the console."
                                     },
                                     {
                                         "name": "Spice Orange",
-                                        "image": "https://example.com/gamecube_controller_spice_orange.png",
+                                        "image": "https://m.media-amazon.com/images/I/41E04RP1KXL.jpg",
                                         "release_info": "Released in 2002 as a limited edition color variant."
                                     },
                                     {
                                         "name": "Smash Bros. Edition",
-                                        "image": "https://example.com/gamecube_controller_smash_bros.png",
+                                        "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6261/6261539_sd.jpg",
                                         "release_info": "Released in 2018 for the Nintendo Switch release of Super Smash Bros. Ultimate."
                                     }
                                 ]
@@ -58,18 +58,15 @@
                                 "variations": [
                                     {
                                         "name": "Silver",
-                                        "image": "https://example.com/wavebird_silver.png",
+                                        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nintendo-GameCube-Wavebird-Silver.jpg",
                                         "release_info": "The standard Wavebird color that came bundled with the receiver."
                                     },
                                     {
-                                        "name": "Platinum",
-                                        "image": "https://example.com/wavebird_platinum.png",
-                                        "release_info": "Released in 2003 as a limited edition color variant."
+                                        "name": "Club Nintendo",
+                                        "image": "https://controllerlibrary.files.wordpress.com/2020/05/wavebirdclubnintendo.jpg?w=2048",
+                                        "release_info": "A Nintendo Club exclusive Wavebird controller. It is estimated that only 1,000 to 5,000 of this variation were made."
                                     }
                                 ]
-                            },
-                            {
-                                "name":
                             }
                         ]
                     },
