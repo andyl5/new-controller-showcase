@@ -12,7 +12,7 @@ function ControllerPage(){
 
 
     return (
-        <div className="container text-center">
+        <div className="text-center">
             <h1>{controllerName} variations</h1>
             <Carousel 
                 variant="dark" 

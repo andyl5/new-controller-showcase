@@ -6,7 +6,7 @@
             "consoles": [
                 {
                     "name": "N64",
-                    "image": "https://example.com/n64.png",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/N64-Console-Set.jpg/2880px-N64-Console-Set.jpg",
                     "controllers": [
                         {
                             "name": "N64 Controller",
@@ -25,7 +25,7 @@
                 },
                     {
                         "name": "Gamecube",
-                        "image": "https://example.com/gamecube.png",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/2880px-GameCube-Set.jpg",
                         "controllers": [
                             {
                                 "name": "Gamecube Controller",
@@ -72,7 +72,7 @@
                     },
                 {
                     "name": "Wii",
-                    "image": "https://example.com/wii.png",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Wii-console.jpg/1200px-Wii-console.jpg",
                     "controllers": [
                         {
                             "name": "Wii Remote",
