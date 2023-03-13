@@ -108,7 +108,7 @@
             "consoles": [
                 {
                     "name": "Playstation 1",
-                    "image": "https://example.com/ps1.png",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/PlayStation-SCPH-1000-with-Controller.jpg/2560px-PlayStation-SCPH-1000-with-Controller.jpg",
                     "controllers": [
                         {
                             "name": "Playstation 1 Controller",
@@ -127,17 +127,17 @@
                 },
                 {
                     "name": "Playstation 2",
-                    "image": "https://example.com/ps2.png",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/PS2-Versions.jpg/1920px-PS2-Versions.jpg",
                     "controllers": [
                         {
                             "name": "Dualshock 2",
-                            "image": "https://example.com/ps2_controller.png",
+                            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/DualShock_2.jpg/1920px-DualShock_2.jpg",
                             "release_date": "I do not know, but PS2",
                             "description": "Honestly I don't know either, but PS2.",
                             "variations": [
                                 {
-                                    "name": "Dualshock 2 Variation 1",
-                                    "image": "https://example.com/dual_analog.png",
+                                    "name": "Black Dualshock 2",
+                                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/DualShock_2.jpg/1920px-DualShock_2.jpg",
                                     "release_info": "No idea about the history, but PS2."
                                 }
                             ]
